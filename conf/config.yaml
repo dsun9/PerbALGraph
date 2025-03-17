@@ -1,0 +1,29 @@
+dataset:
+  name: '<dataset_name>'
+  rand_set: 0
+train:
+  seed: 0
+  gnn_epochs: 500
+init_selection:
+  centrality: 'pagerank'
+  gnn_epochs: 500
+selection:
+  centrality: 'pagerank'
+  centrality_var: true
+  perturb_num_e: 4
+  perturb_num_m: 3
+  perturb_num_p: 3
+model:
+  layer_type: 'gcn'
+  num_layers: 2
+  hidden_channels: 32
+  out_channels: 16
+  num_classes: 3
+exp:
+  dedup: true
+  dedup_threshold: 0.9
+  N_init: 3
+  N_budget: 20
+  N_append: 1
+accelerator: 'gpu'
+device: [0]
