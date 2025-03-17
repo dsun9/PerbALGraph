@@ -1,0 +1,3 @@
+,message_id,actor_id,text,index_text,tweet_counts,user_counts,gpt_label,manual_label,is_gt
+0,xxxx,aaaa,content1,i0,5,5,supportive,supportive,0
+1,yyyy,bbbb,content2,i1,5,5,supportive,supportive,1

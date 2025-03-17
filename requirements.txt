@@ -1,0 +1,13 @@
+hydra-core
+python-igraph
+lightning
+networkx
+numpy
+pandas
+torch
+omegaconf
+torch-geometric
+tqdm
+scipy
+scikit-learn
+torchmetrics
